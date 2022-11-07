@@ -19,4 +19,4 @@ jobs:
       - name: Dump matrix context
         run: echo '${{ toJSON(matrix) }}'
       - name: Dump context path
-        run: echo '${{github.action.path}}'
+        run: echo '${{github.action_path}}'
