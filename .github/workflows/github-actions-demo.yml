@@ -42,6 +42,7 @@ jobs:
             torchvision==${{ matrix.torch-version-map.torchvision }} \
             torchtext==${{ matrix.torch-version-map.torchtext }}
           pip install torchview
+          echo $RUNNER_OS
         shell: bash
       - name: pytest
         run: |
