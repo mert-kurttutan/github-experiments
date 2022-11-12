@@ -1,7 +1,17 @@
 name: Context testing
 on: push
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
   dump_contexts_to_log:
     runs-on: ${{ matrix.os }}
     strategy:
