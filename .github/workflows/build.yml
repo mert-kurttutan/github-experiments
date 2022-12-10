@@ -21,7 +21,7 @@ jobs:
           python -m pip install mypy pytest pytest-cov
         shell: bash
       - name: mypy
-        if: ${{ matrix.torch-version-map.torch == '1.13' }}
+        if: ${{ matrix.python-version == '3.10' }}
         run: |
           mypy .
       - name: pytest
