@@ -3,6 +3,10 @@ name: Push Release to PyPi
 on:
   workflow_dispatch:
 
+  release:
+    types:
+      - "published"
+
 jobs:
   unit_tests:
     runs-on: ubuntu-latest
