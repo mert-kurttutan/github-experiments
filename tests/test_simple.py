@@ -1,11 +1,11 @@
 
-import pytest
-
-from dummy_package import my_int
+from ratnumber import RationalNumber
 
 
-def test_simple():
-    assert True, 'Totology'
+def test_simplify_numerator() -> None:
 
-    x = my_int(3)
-    assert x.num == 3
+    rational_num_1 = RationalNumber(6, 8)
+
+    assert (
+        rational_num_1.numerator == 3 and rational_num_1.denominator == 4
+    ), 'Simplification is wrong'
