@@ -7,9 +7,9 @@ adjusts the images in the README.md to support the given target.
 import argparse
 from pathlib import Path
 
-URL = "https://user-images.githubusercontent.com/1309177/{}.svg"
-URL_LIGHT = URL.format("212613257-5f4bca12-6d6b-4c79-9bac-51a4c6d08928")
-URL_DARK = URL.format("212613422-7faaf278-706b-4294-ad92-236ffcab3430")
+URL = "https://user-images.githubusercontent.com/88637659/{}.svg"
+URL_LIGHT = URL.format("213171745-7acf07df-6578-4a50-a106-1a7b368f8d6c")
+URL_DARK = URL.format("213173736-6e91724c-8de1-4568-9d52-297b4b5ff0d2")
 
 # https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#specifying-the-theme-an-image-is-shown-to
 GITHUB = f"""
