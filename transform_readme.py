@@ -8,8 +8,8 @@ import argparse
 from pathlib import Path
 
 URL = "https://user-images.githubusercontent.com/88637659/{}.svg"
-URL_LIGHT = URL.format("213171745-7acf07df-6578-4a50-a106-1a7b368f8d6c")
-URL_DARK = URL.format("213173736-6e91724c-8de1-4568-9d52-297b4b5ff0d2")
+URL_DARK = URL.format("213171745-7acf07df-6578-4a50-a106-1a7b368f8d6c")
+URL_LIGHT = URL.format("213173736-6e91724c-8de1-4568-9d52-297b4b5ff0d2")
 
 # https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#specifying-the-theme-an-image-is-shown-to
 GITHUB = f"""
