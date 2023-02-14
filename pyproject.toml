@@ -1,6 +1,6 @@
 [project]
 name = "ratnumbers"
-version = "0.0.4"
+version = "0.0.5"
 description = "Dummy Package to Test Github CI/CD on python projects/packaging"
 readme = "README.md"
 requires-python = ">=3.7"
